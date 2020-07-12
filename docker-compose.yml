@@ -32,7 +32,6 @@ services:
     environment:
       - RABBITMQ_DEFAULT_USER=codelytv
       - RABBITMQ_DEFAULT_PASS=c0d3ly
-
   nginx:
     container_name: codelytv-ddd-skeleton-nginx
     image: nginx:1.15-alpine
